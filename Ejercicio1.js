@@ -1,6 +1,7 @@
 function toArray(obj) {
     //Implementación
-    return 0;
+    const arr = Object.entries(obj)
+    return arr;
 }
 
 module.exports = toArray;
